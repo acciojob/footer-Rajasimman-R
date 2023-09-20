@@ -20,11 +20,12 @@
 	color:white;
 }
 
-.logo-details{
+.media-icons{
 	font-size:25px;
 	padding:1rem;
 	display:flex;
 	justify-content:space-between;
+
 }
 .fa {
   padding:0.3rem;
