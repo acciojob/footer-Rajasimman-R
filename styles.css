@@ -1,4 +1,7 @@
 /* your code here */
+*{
+	font-family: "Lucida Console", "Courier New", monospace;
+}
 .bottom-details{
 	display:flex;
 	justify-content:space-between;
@@ -6,10 +9,17 @@
 	padding:0rem 2rem;
 	color:#a3a2a6;
 }
+.link-boxes
+{
+	display:flex;
+	justify-content:space-evenly;
+	margin-bottom:2rem;
+}
 .content{
 	background-color:black;
 	color:white;
 }
+
 .logo-details{
 	font-size:25px;
 	padding:1rem;
@@ -18,7 +28,7 @@
 }
 .fa {
   padding:0.3rem;
-  min-width:2rem;
+  min-width:1.6rem;
   text-align: center;
   text-decoration: none;
   margin: auto;
@@ -63,4 +73,27 @@
 .fa-youtube:hover{
 	background: white;
   color: #bb0000;
+}
+.media-icons a
+{
+	margin-right:0.5rem;
+}
+ul{
+	list-style-type: none;
+}
+ .link-boxes h3{
+	border-bottom:1px solid white;
+	display:inline;
+	 margin-left:2.3rem;
+}
+.link-boxes a{
+	color:white;
+	text-decoration:none;
+	
+}
+.link-boxes a:hover{
+	border-bottom:2px solid white;
+}
+.footer-section h4{
+	border-bottom:1px solid white;
 }
