@@ -1,1 +1,66 @@
 /* your code here */
+.bottom-details{
+	display:flex;
+	justify-content:space-between;
+	background-color:#313036;
+	padding:0rem 2rem;
+	color:#a3a2a6;
+}
+.content{
+	background-color:black;
+	color:white;
+}
+.logo-details{
+	font-size:25px;
+	padding:1rem;
+	display:flex;
+	justify-content:space-between;
+}
+.fa {
+  padding:0.3rem;
+  min-width:2rem;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  border-radius:50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-facebook:hover {
+  background: white;
+  color: #3B5998;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-twitter:hover {
+  background: white;
+  color: #55ACEE;
+}
+.fa-instagram {
+  background: #E1306C;
+  color: white;
+}
+.fa-instagram:hover {
+  background: white;
+  color: #E1306C;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-linkedin:hover {
+  background:white ;
+  color: #007bb5;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-youtube:hover{
+	background: white;
+  color: #bb0000;
+}
