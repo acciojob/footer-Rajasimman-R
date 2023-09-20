@@ -93,6 +93,7 @@ ul{
 }
 .link-boxes a:hover{
 	border-bottom:2px solid white;
+	color:lightblue;
 }
 .footer-section h4{
 	border-bottom:1px solid white;
